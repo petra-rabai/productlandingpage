@@ -10,41 +10,48 @@
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 </head>
 <body>
-    <div id="header-section">
-        <div class="menu">
-            <nav id="nav-bar">
-                <img id="header-img" class="img-responsive" src="https://drive.google.com/uc?id=1DNnJPYaHOyzL3DuDqSLYvyPGIMjpsiXm" alt="CSM Logo" width="50" height="50">
-                <a class="nav-link" href="#product">Product</a>
-                <a class="nav-link" href="#service">Service</a>
-                <a class="nav-link" href="#contact">Contact</a>
-            </nav>
-        </div>
-    <h1 id="header">Computer Service Market</h1>
-    </div>
-    <div class="flex-container">
-        <div id="product-section">
-            <h2 id="product">Product</h2>
-            <p>Hardver and Software service. Windows,Linux install.</p>
-            <iframe id="video" width="350" height="350" src="https://www.youtube.com/embed/liTF2V5E-LI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-        <div id="service-section">
-            <h2 id="service">Service Option</h2>
-            <div id="service-flex">
-               <div>
-                    <h3>Remote Service</h3>
-                    <p>Software service with remote connection</p>
-               </div>
-               <div>
-                    <h3>Personal Service</h3>
-                    <p>Hardvare service in the Customer home, or our office.</p>
-               </div> 
+    <div id="page">
+        
+        <header>
+            <div id="header-section">
+                <h1 id="header">
+                    <div class="menu">
+                        <nav id="nav-bar">
+                            <img id="header-img" class="img-responsive" src="https://drive.google.com/uc?id=1DNnJPYaHOyzL3DuDqSLYvyPGIMjpsiXm" alt="CSM Logo" width="50" height="50">
+                            <a class="nav-link" href="#product">Product</a>
+                            <a class="nav-link" href="#service">Service</a>
+                            <a class="nav-link" href="#contact">Contact</a>
+                            Computer Service Market 
+                        </nav>
+                    </div>
+                    
+                </h1>
             </div>
-        </div>
+        </header>
+        <div class="flex-container">
+            <div id="product-section">
+                <h2 id="product">Product</h2>
+                <p>Hardver and Software service. Windows,Linux install.</p>
+                <iframe id="video" width="350" height="350" src="https://www.youtube.com/embed/liTF2V5E-LI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div id="service-section">
+                <h2 id="service">Service Option</h2>
+                <div id="service-flex">
+                    <div>
+                        <h3>Remote Service</h3>
+                        <p>Software service with remote connection</p>
+                    </div>
+                     <div>
+                        <h3>Personal Service</h3>
+                        <p>Hardvare service in the Customer home, or our office.</p>
+                    </div> 
+                </div>
+            </div>
         <div id="contact-section">
             <h2 id="contact">Contact</h2>
             <form id="form" action="https://www.freecodecamp.com/email-submit">
                 <label for="email">E-mail address: </label>
-                <input id="email" type="email" placeholder=" Add e-mail address" required>
+                <input id="email" type="email" placeholder=" Add e-mail address" name="email" required>
                 <input class="btn btn-dark" id="submit" type="submit" name="submit">
             </form>
         </div>      
@@ -52,5 +59,6 @@
     <footer id="footer-info">
         <p>Created by Petra Rabai</p>
     </footer>
+    </div>
 </body>
 </html> 
